@@ -1,7 +1,83 @@
-/* style.css */
+/* Reset & base */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  } 
-"h2 { color: blue; }" 
-"footer { text-align: center; }" 
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #222;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero section */
+  .hero {
+    background: linear-gradient(to right, #333, #666);
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Preview */
+  .about-preview {
+    padding: 3rem 2rem;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .about-preview h2 {
+    font-size: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
