@@ -80,4 +80,41 @@ body {
     text-align: center;
     padding: 1rem;
   }
+/* Highlight current nav link */
+.nav-links a.active {
+    text-decoration: underline;
+  }
   
+  /* Contact Section */
+  .contact-section {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button.btn {
+    background-color: #007acc;
+  }    
